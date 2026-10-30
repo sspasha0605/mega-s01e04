@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,18 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issue list
+
+- https://github.com/sspasha0605/mega-s01e04/issues/1
+- https://github.com/sspasha0605/mega-s01e04/issues/2
+- https://github.com/sspasha0605/mega-s01e04/issues/3
+- https://github.com/sspasha0605/mega-s01e04/issues/4
+- https://github.com/sspasha0605/mega-s01e04/issues/5
+- https://github.com/sspasha0605/mega-s01e04/issues/6
+- https://github.com/sspasha0605/mega-s01e04/issues/7
+- https://github.com/sspasha0605/mega-s01e04/issues/8
+
+## Review and cleanup evidence
+
+The reviewer confirmed seeing the preview before issue #7 closed. After separate student approval, the service was run with LANE_MARKER unset and its digest exported by curl. The same public URL now displays `no marker set`: https://mega-s01e04-sspasha0605.pages.dev/. The superseded marked deployment was deleted. All 21 tests and TypeScript checks passed during implementation; runs fixtures remain unchanged.
